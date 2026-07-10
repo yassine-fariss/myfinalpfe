@@ -9,5 +9,7 @@
             "src": "/(.*)",
             "dest": "/api/index.php"
         }
-    ]
+    ],
+    "buildCommand": "composer install --no-dev --optimize-autoloader && npm run build",
+    "outputDirectory": "public"
 }
